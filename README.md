@@ -1,5 +1,5 @@
 # Fubucker | CVE-2022-1386 - Fusion Builder
-Automatic Mass Tool for checking vulnerability for CVE-2022-1386 - Fusion Builder < 3.6.2 - Unauthenticated SSRF<br>Using GNU Parallel. You must have parallel for running this tool
+Automatic Mass Tool for checking vulnerability in CVE-2022-1386 - Fusion Builder < 3.6.2 - Unauthenticated SSRF<br>Using GNU Parallel. You must have parallel for running this tool
 # Install Parallel
 Linux : <br>
 <b>command</b> <br># <i>apt-get install parallel -y</i><br>
