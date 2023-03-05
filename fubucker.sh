@@ -40,4 +40,4 @@ parallel -j $2 exploit :::: $1
 total=$(cat vuln.txt | wc -l)
 totalb=$(cat notvuln.txt | wc -l)
 printf "\033[0;36mTotal Vuln : $total\n";
-printf "\033[0;36mTotal Not Vuln : $total\n";
+printf "\033[0;36mTotal Not Vuln : $totalb\n";
