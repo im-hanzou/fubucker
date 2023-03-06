@@ -1,5 +1,5 @@
 # Fubucker | CVE-2022-1386 - Fusion Builder
-Automatic Mass Tool for checking vulnerability in CVE-2022-1386 - Fusion Builder < 3.6.2 - Unauthenticated SSRF<br>Using GNU Parallel. You must have parallel for running this tool<br><b>If you found error like '$'\r': command not found' just do 'dos2unix fubucker.sh'</b>
+Automatic Mass Tool for checking vulnerability in CVE-2022-1386 - Fusion Builder < 3.6.2 - Unauthenticated SSRF<br>Using GNU Parallel. You must have parallel for running this tool<br><b>If you found error like "$'\r': command not found" just do "dos2unix fubucker.sh"</b>
 # Install Parallel
 Linux : <br>
 <b>command</b> <br># <i>apt-get install parallel -y</i><br>
