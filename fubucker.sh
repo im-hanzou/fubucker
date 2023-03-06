@@ -15,7 +15,7 @@ printf "CVE-2022-1386 Mass Vulnerability Checker\n\n"
 printf "${yellow}Created By Im-Hanzou
 Github : im-hanzou\n\n"
 
-
+touch vuln.txt notvuln.txt
 exploit(){	
 classic='\033[0m'
 red='\e[41m'
