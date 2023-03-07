@@ -6,6 +6,12 @@ Linux : <br>
 Windows : <br>
 You can install WSL (windows subsystem linux) then do install like linux<br>if you want use windows, install <a href="https://git-scm.com/download/win">GitBash</a><br>
 <b>command</b> <br># <i>curl pi.dk/3/ > install.sh <br># sha1sum install.sh | grep 12345678 <br># md5sum install.sh <br># sha512sum install.sh <br># bash install.sh</i><br>
+# Install JQ 
+Linux : <br>
+<b>command</b> <br># <i>apt-get install jq -y</i><br>
+Windows : <br>
+For WSL just do install like linux, For gitbash you can do this command<br>
+<b>command</b> <br># <i>curl -L -o C:/Program\ Files/Git/usr/bin/jq2.exe https://github.com/stedolan/jq/releases/latest/download/jq-win64.exe</i>
 # How To Use
 <i>bash fubucker.sh yourlist.txt thread</i>
 # Reference
