@@ -11,7 +11,7 @@ Linux : <br>
 <b>command</b> <br># <i>apt-get install jq -y</i><br>
 Windows : <br>
 For WSL just do install like linux, For gitbash you can do this command<br>
-<b>command</b> <br># <i>curl -L -o C:/Program\ Files/Git/usr/bin/jq2.exe https://github.com/stedolan/jq/releases/latest/download/jq-win64.exe</i>
+<b>command</b> <br># <i>curl -L -o C:/Program\ Files/Git/usr/bin/jq.exe https://github.com/stedolan/jq/releases/latest/download/jq-win64.exe</i>
 # How To Use
 <i>bash fubucker.sh yourlist.txt thread</i>
 # Reference
